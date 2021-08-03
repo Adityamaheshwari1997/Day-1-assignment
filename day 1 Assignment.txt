@@ -1,0 +1,102 @@
+1) After running the following code, what does the variable bacon contain?
+
+output is 23
+
+
+
+2) What should the values of the following two terms be?
+ "\n",
+    "'spam' + 'spamspam'\n",
+    "\n",
+    "'spam' * 3\n"
+   ]
+
+output is:- In first case they add the value let if spam = 3 so s= spam+spam+spam  -> (9) 
+            In second case they multiple the value let if spam = 3 so s= s*3  -> (9)  
+
+(feedback :- i thing the answer is wrong but the question is wrong format this is the only reason)
+ 
+
+
+"3) How can you tell the difference between break and continue?"
+
+   
+output :- break -> Terminate the loop if the condition is true
+  
+        continue -> used for skip the current argument
+
+
+
+"4) In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?"
+
+
+output:- Python range(10) function generates the immutable sequence of numbers starting from the given start integer to the stop integer{0,1,2 upto 9}. 
+
+        range(0, 10). Here,start=0 and stop = 10. It will generate integers starting from the start number to stop -1
+        
+        Pass the step value to range(0,10,1)
+
+
+"5) Using a for loop, write a short programme that prints the numbers 1 to 10 Then, using a while loop, create an identical programme that prints the numbers 1 to 10."
+
+output:- using for loop -> for i is range(10):
+                                 print(i)
+
+         using while lop -> i = 1
+                            while(i<10):
+                              pirnt(i)
+                             i+=1
+
+6) Given a number x, determine whether the given number is Armstrong number or not.?
+
+
+output:-
+  
+num = 153
+sum = 0
+temp = num?
+
+while temp > 0:
+   digit = temp % 10
+   sum += digit ** 3
+   temp //= 10
+
+
+if num == sum:
+   print("yes",num,"is an Armstrong number")
+else:
+   print("No",num,"is not an Armstrong number")
+
+
+8) Program to Reverse words in a given String in Python."
+
+output:- 
+
+str = "Lets upgrade"
+str1 = ""
+
+for i in str:
+   str1 = i+str1
+print(str1)
+
+
+9)  Given a list of numbers, write a Python program to find the sum of all the elements in the list.
+
+output:-  
+
+l = []
+num = int(input('How many numbers: '))
+for n in range(num):
+    numbers = int(input('Enter number '))
+    lst.append(numbers)
+print("Sum of elements in given list is :", sum(l))
+
+
+10) Write a Python program to print all even numbers between 10-1000?
+
+output:-  
+ 
+for num in range(10, 1000):
+      
+    if num % 2 == 0:
+        print(num)
